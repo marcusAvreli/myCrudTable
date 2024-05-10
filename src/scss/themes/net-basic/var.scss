@@ -1,0 +1,33 @@
+// ===================================================
+// Pages Dashboard UI Framework  - DEFAULT THEME
+// Copyright Reserved Revox - 2020
+// ===================================================
+$pages-root-url: "../../";
+$base-img-url: "../../img";
+$assets-url: "../../../assets";
+
+// Border
+$border-size: 0px;
+$border-radius: 8px;
+$border-color: rgba(0, 0, 0, 0.08);
+$border-style: solid;
+
+// Card
+$card-border-color: transparent;
+$card-padding: 20px ;
+$card-heading-padding: 1rem 1rem .5rem;
+$card-heading-min-height: 48px ;
+$card-condensed-heading-padding: 9px 13px 0 13px ;
+$card-condensed-body-padding: 13px ;
+$card-condensed-heading-min-height: 48px ;
+
+// ================ COLOR PALETTE ====================
+$color-primary: #7252D3;
+$color-complete: #0072EC;
+$color-success: #19AD79;
+$color-warning: #FFd945;
+$color-danger: #D83C31;
+$color-info: #3B4752;
+$color-menu: #2b303b;
+
+$base-font-family: "Inter UI", -apple-system, BlinkMacSystemFont,  "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell","Fira Sans", "Droid Sans", "Helvetica Neue",sans-serif;

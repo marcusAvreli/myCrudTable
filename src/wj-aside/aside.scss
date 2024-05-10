@@ -1,0 +1,49 @@
+@import "../scss/themes/net-basic/important.scss";
+
+/*
+[ Aside ]
+*/
+
+
+:host {
+    --wj-aside-width: "100px";
+    --wj-aside-top: 0;
+    --wj-aside-border-color: var(--wj-border-color);
+    --wj-aside-border-width: 0 1px 0 0;
+    --wj-aside-border-style: solid;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    overflow: auto;
+    border-color: var(--wj-aside-border-color);
+    border-width: var(--wj-aside-border-width);
+    border-style: var(--wj-aside-border-style);
+}
+
+:host(.open) {
+    display: block !important;
+}
+
+@media (min-width: 768px) {
+    :host([fixed]) {
+        position: fixed;
+        width: var(--wj-aside-width);
+        top: var(--wj-aside-top);
+      
+    }
+}
+
+@media (max-width: 768px) {
+    :host {
+        display: none;
+    }
+
+    :host([variant=top-start]) {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 100%;
+        z-index: 9999;
+        background-color: #fff;
+    }
+}
